@@ -1,0 +1,42 @@
+# Dependencies & Build artifacts
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+venv/
+
+# Go
+bin/
+/server
+/go-backend/server
+*.exe
+
+# Tests
+tests/
+*_test.go
+*.test.mjs
+*.test.js
+*.test.ts
+
+# Logs & Environment
+*.log
+.env
+.env.local
+.DS_Store
+
+# Temporary scratch & issues
+.scratch/
+
+# User exclusions
+run_all.sh
+run.sh
+Resource/
+SPEC.md
